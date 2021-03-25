@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77c40523-e5db-496a-84b4-bfe7eb43ee09" name="Default Changelist" comment="" />
+    <list default="true" id="77c40523-e5db-496a-84b4-bfe7eb43ee09" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_tcp_client-server/tcpC.go" beforeDir="false" afterPath="$PROJECT_DIR$/1_tcp_client-server/tcpC.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_tcp_client-server/tcpS.go" beforeDir="false" afterPath="$PROJECT_DIR$/1_tcp_client-server/tcpS.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_udp_client-server/udpC.go" beforeDir="false" afterPath="$PROJECT_DIR$/2_udp_client-server/udpC.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_udp_client-server/udpS.go" beforeDir="false" afterPath="$PROJECT_DIR$/2_udp_client-server/udpS.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,10 +22,14 @@
     </option>
   </component>
   <component name="GOROOT" path="C:/Program Files/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1q6yGM8hrUIV56efmo3apZK4UhZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -40,7 +50,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build net_package_t/1_tcp_client-server">
+    <configuration name="go build net_package_t/1_tcp_client-server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="net_package_t" />
+      <working_directory value="$PROJECT_DIR$/1_tcp_client-server" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/1_tcp_client-server/tcpC.go" />
+      <package value="net_package_t/1_tcp_client-server" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build net_package_t/1_tcp_client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="net_package_t" />
       <working_directory value="$PROJECT_DIR$/1_tcp_client" />
@@ -51,12 +70,26 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build net_package_t/1_tcp_client-server" />
         <item itemvalue="Go Build.go build net_package_t/1_tcp_client" />
       </list>
     </recent_temporary>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

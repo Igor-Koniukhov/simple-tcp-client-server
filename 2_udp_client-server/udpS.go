@@ -8,7 +8,6 @@ import (
 	"strconv"
 	"strings"
 	"time"
-
 )
 func random(min, max int) int {
 	return rand.Intn(max - min) + min
@@ -37,8 +36,10 @@ func main() {
 	buffer := make([]byte, 1024)
 	rand.Seed(time.Now().Unix())
 
+
 	for {
 		n, addr, err := connection.ReadFromUDP(buffer)
+		fmt.Println(n)
 		fmt.Print("-> ", string(buffer[0:n-1]))
 		if strings.TrimSpace(string(buffer[0:n])) == "STOP" {
 			fmt.Println("Exiting UDP server!")
